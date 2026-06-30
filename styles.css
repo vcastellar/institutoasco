@@ -78,6 +78,9 @@ p { color: var(--muted); line-height: 1.7; }
   box-shadow: var(--shadow);
 }
 .hero-card { overflow: hidden; padding: 2rem; position: relative; }
+.formula-card { background: var(--panel); border: 1px solid var(--line); border-radius: 20px; margin: 1.5rem 0; padding: 1.5rem; }
+.formula { color: var(--accent); font-family: "Courier New", monospace; font-size: 1.3rem; font-weight: 800; margin: 0 0 1rem; }
+.formula-legend { font-size: .92rem; margin: 0; }
 .hero-card::after { content: ""; background: linear-gradient(135deg, transparent, rgba(215,255,79,.24)); inset: 0; position: absolute; pointer-events: none; }
 .card-topline { color: var(--accent-2); font-weight: 800; margin-bottom: 4rem; }
 .hero-card h2 { font-size: clamp(2rem, 4vw, 3.5rem); }
