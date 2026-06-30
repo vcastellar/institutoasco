@@ -71,7 +71,7 @@ p { color: var(--muted); line-height: 1.7; }
 .button { border-radius: 999px; display: inline-flex; font-weight: 800; padding: .95rem 1.2rem; }
 .primary { background: var(--accent); color: #111; }
 .ghost { border: 1px solid var(--line); color: var(--text); }
-.hero-card, .person-card, .article-grid article, .department-grid article, .product-card {
+.hero-card, .person-card, .article-grid article, .article-card, .article-page, .department-grid article, .product-card {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 28px;
@@ -93,7 +93,17 @@ p { color: var(--muted); line-height: 1.7; }
 .section-heading.compact { align-items: end; display: flex; justify-content: space-between; gap: 2rem; max-width: none; }
 .people-grid, .article-grid, .department-grid, .merch-grid { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); }
 .article-grid, .department-grid, .merch-grid { grid-template-columns: repeat(3, 1fr); }
-.person-card, .article-grid article, .department-grid article, .product-card { padding: 1.6rem; }
+.person-card, .article-grid article, .article-card, .department-grid article, .product-card { padding: 1.6rem; }
+.article-card { display: block; transition: transform .2s ease, border-color .2s ease; }
+.article-card:hover { border-color: var(--accent); transform: translateY(-4px); }
+.article-card small { color: var(--accent); font-weight: 800; }
+.article-page { margin-block: 3rem; padding: clamp(2rem, 5vw, 4rem); }
+.article-page h1 { font-size: clamp(2.8rem, 7vw, 6.2rem); }
+.article-page__meta { align-items: center; color: var(--muted); display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin-bottom: 1.5rem; }
+.article-lead { color: var(--text); font-size: clamp(1.2rem, 2vw, 1.55rem); max-width: 860px; }
+.article-body { max-width: 820px; }
+.article-body p { font-size: 1.08rem; }
+.back-link { color: var(--accent); display: inline-flex; font-weight: 800; margin-bottom: 2rem; }
 .person-card.featured { background: linear-gradient(135deg, var(--panel-strong), rgba(215,255,79,.08)); }
 .avatar { align-items: center; background: var(--accent); border-radius: 24px; color: #111; display: flex; font-size: 2rem; font-weight: 900; height: 64px; justify-content: center; margin-bottom: 1.5rem; width: 64px; }
 .role, .tag { color: var(--accent-2); font-weight: 800; }
@@ -120,6 +130,7 @@ p { color: var(--muted); line-height: 1.7; }
   .nav-links.open { display: flex; }
   .hero, .two-column, .merch { grid-template-columns: 1fr; }
   .people-grid, .article-grid, .department-grid, .merch-grid { grid-template-columns: 1fr; }
+  .article-nav-links { display: flex; position: static; }
   .section-heading.compact { align-items: start; display: block; }
   .stacked-copy { border-left: 0; padding-left: 0; }
   .stat-grid { grid-template-columns: 1fr; }
