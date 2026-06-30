@@ -124,6 +124,7 @@ p { color: var(--muted); line-height: 1.7; }
   .nav-links.open { display: flex; }
   .hero, .two-column, .merch { grid-template-columns: 1fr; }
   .people-grid, .article-grid, .department-grid, .merch-grid { grid-template-columns: 1fr; }
+  .article-nav-links { display: flex; position: static; }
   .section-heading.compact { align-items: start; display: block; }
   .stacked-copy { border-left: 0; padding-left: 0; }
   .stat-grid { grid-template-columns: 1fr; }
