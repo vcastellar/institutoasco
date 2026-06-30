@@ -99,7 +99,7 @@ p { color: var(--muted); line-height: 1.7; }
 a.person-card { display: flex; flex-direction: column; transition: transform .2s ease, border-color .2s ease; }
 a.person-card:hover { border-color: var(--accent); transform: translateY(-4px); }
 .card-link { color: var(--accent); font-weight: 800; margin-top: 1.2rem; }
-.avatar { align-items: center; background: var(--accent); border-radius: 48px; color: #111; display: flex; font-size: 2rem; font-weight: 900; height: 128px; justify-content: center; margin-bottom: 1.5rem; overflow: hidden; width: 128px; }
+.avatar { align-items: center; background: var(--accent); border-radius: 80px; color: #111; display: flex; font-size: 2rem; font-weight: 900; height: 220px; justify-content: center; margin-bottom: 1.5rem; overflow: hidden; width: 220px; }
 .avatar img { height: 100%; object-fit: cover; width: 100%; }
 .role, .tag { color: var(--accent-2); font-weight: 800; }
 .tag { font-size: .78rem; text-transform: uppercase; }
