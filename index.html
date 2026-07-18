@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Special+Elite&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -28,12 +28,12 @@
           <span class="sr-only">Abrir menú</span>
         </button>
         <div class="nav-links" id="menu">
-          <a href="#instituto">Instituto</a>
-          <a href="equipo.html">Quiénes somos</a>
+          <a href="#inicio">Inicio</a>
+          <a href="equipo.html">Equipo</a>
+          <a href="departamentos.html">Departamentos</a>
           <a href="articulos.html">Artículos</a>
-          <a href="#investigacion">Investigación</a>
-          <a href="#departamentos">Departamentos</a>
-          <a class="nav-cta" href="#merchandising">Merch</a>
+          <a href="bibliografia.html">Bibliografía</a>
+          <a class="nav-cta" href="merchandising.html">Merch</a>
         </div>
       </nav>
     </header>
@@ -46,11 +46,13 @@
           <p class="hero-lead">
             El Instituto Frenillo observa,
             clasifica y archiva las grandes pequeñas miserias de la vida contemporánea con
-            una precisión innecesariamente seria.
+            una precisión innecesariamente seria. Sus métodos combinan observación no
+            consentida, diagramas con flechas y una alarmante confianza en conclusiones
+            redactadas en negrita.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#investigacion">Ver líneas de investigación</a>
-            <a class="button ghost" href="#merchandising">Comprar evidencia</a>
+            <a class="button primary" href="departamentos.html">Ver departamentos</a>
+            <a class="button ghost" href="merchandising.html">Comprar evidencia</a>
           </div>
         </div>
       </section>
@@ -63,90 +65,31 @@
         <span>comentarios de internet</span>
       </section>
 
-      <section class="section-shell two-column" id="instituto">
-        <div>
-          <p class="eyebrow">Sobre el instituto</p>
-          <h2>Una entidad académica en el sentido más flexible de la palabra.</h2>
-        </div>
-        <div class="stacked-copy">
-          <p>
-            El Instituto Frenillo nace para dar cobertura institucional a hallazgos que ninguna universidad
-            quiso revisar dos veces: el cuñadismo de ascensor, la retención patológica de
-            céntimos y la matemática absurda aplicada a problemas que nadie tenía.
-          </p>
-          <p>
-            Sus métodos combinan observación no consentida, diagramas con flechas y una
-            alarmante confianza en conclusiones redactadas en negrita.
-          </p>
-        </div>
-      </section>
-
       <section class="section-shell" id="equipo">
         <div class="section-heading compact">
-          <p class="eyebrow">Quiénes somos</p>
+          <p class="eyebrow">Equipo</p>
           <h2>Dos mentes incómodamente complementarias.</h2>
-          <a class="button ghost" href="equipo.html">Ver el equipo completo</a>
+          <a class="button ghost" href="equipo.html">Ver el equipo</a>
         </div>
-        <div class="people-grid">
+        <div class="people-grid compact">
           <a class="person-card" href="equipo/frecuaccioni.html">
-            <div class="avatar"><img src="imagenes/logoFrecuaccioniNEGRA.jpeg" alt="Profesor Frecuaccioni" loading="lazy" /></div>
-            <h3>Profesor Frecuaccioni</h3>
-            <p class="role">Director de Matemáticas Improbables</p>
-            <p>
-              Matemático genial al que se le ha ido la cabeza con elegancia formal. Convierte
-              cualquier situación cotidiana en un teorema absurdo, preferiblemente irresoluble.
-            </p>
-            <span class="card-link">Ver ficha completa →</span>
+            <div class="avatar"><img src="imagenes/logoFrecuaccioniBlanca.jpg" alt="Profesor Frecuaccioni" loading="lazy" /></div>
+            <div>
+              <h3>Profesor Frecuaccioni</h3>
+              <p class="role">Director de Matemáticas Improbables</p>
+              <p>Convierte cualquier situación cotidiana en un teorema absurdo, preferiblemente irresoluble.</p>
+              <span class="card-link">Ver ficha →</span>
+            </div>
           </a>
           <a class="person-card featured" href="equipo/frenillo.html">
-            <div class="avatar"><img src="imagenes/frenillo3Negra.jpeg" alt="Doctor Frenillo" loading="lazy" /></div>
-            <h3>Doctor Frenillo</h3>
-            <p class="role">Jefe de Diagnóstico Social Incómodo</p>
-            <p>
-              Especialista en patologías sociales persistentes. Ninguna institución académica
-              ha validado sus métodos, pero tampoco ha conseguido desmentirlos sin sufrir parte
-              del problema.
-            </p>
-            <span class="card-link">Ver ficha completa →</span>
+            <div class="avatar"><img src="imagenes/frenilloBlanca.jpg" alt="Doctor Frenillo" loading="lazy" /></div>
+            <div>
+              <h3>Doctor Frenillo</h3>
+              <p class="role">Jefe de Diagnóstico Social Incómodo</p>
+              <p>Diagnostica patologías sociales que nadie ha conseguido desmentir sin sufrirlas.</p>
+              <span class="card-link">Ver ficha →</span>
+            </div>
           </a>
-        </div>
-      </section>
-
-      <section class="section-shell" id="articulos">
-        <div class="section-heading compact">
-          <p class="eyebrow">Artículos</p>
-          <h2>Publicaciones recientes del archivo del Instituto Frenillo.</h2>
-          <a class="button ghost" href="articulos.html">Ver todos los artículos</a>
-        </div>
-        <div class="article-grid">
-          <article>
-            <span class="tag">Diagnóstico</span>
-            <h3>El amargado moderno no nace: se sedimenta.</h3>
-            <p>Estudio de campo sobre cómo una queja aislada puede convertirse en identidad.</p>
-          </article>
-          <article>
-            <span class="tag">Retención patológica</span>
-            <h3>El agarrado y la desaparición exacta en el momento de pagar.</h3>
-            <p>Protocolo de identificación temprana en cenas, viajes y botes comunes.</p>
-          </article>
-          <article>
-            <span class="tag">Frecuaccionismo</span>
-            <h3><a href="articulos/frecuaccioni-olvido-rencor.html">El olvido humano y el rencor que se niega a salir.</a></h3>
-            <p>Una nota sencilla del Profesor Frecuaccioni sobre recuerdos, heridas y cuentas pendientes.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-shell research" id="investigacion">
-        <div class="section-heading">
-          <p class="eyebrow">Líneas de investigación</p>
-          <h2>Trabajos de alto impacto en personas concretas.</h2>
-        </div>
-        <div class="research-list">
-          <div><span>01</span><p>Taxonomía del opinador que empieza con “yo no soy experto, pero…”.</p></div>
-          <div><span>02</span><p>Geometría emocional del que se queda en la puerta del metro.</p></div>
-          <div><span>03</span><p>Economía moral del que pide “solo probar” media ración ajena.</p></div>
-          <div><span>04</span><p>Frecuaccionismo aplicado a discusiones que ya estaban perdidas.</p></div>
         </div>
       </section>
 
@@ -154,40 +97,88 @@
         <div class="section-heading compact">
           <p class="eyebrow">Departamentos</p>
           <h2>Un organigrama breve, pero preocupante.</h2>
+          <a class="button ghost" href="departamentos.html">Ver los departamentos</a>
         </div>
         <div class="department-grid">
-          <article><h3>Departamento de Excusas Preventivas</h3><p>Analiza frases emitidas antes de cualquier responsabilidad real.</p></article>
-          <article><h3>Laboratorio de Colas y Suspiros</h3><p>Mide resignación, adelantamientos sutiles y pérdida progresiva de dignidad.</p></article>
-          <article><h3>Cátedra de Matemática Inútil Aplicada</h3><p>Dirigida por Frecuaccioni para cuantificar lo que jamás debió medirse.</p></article>
-          <article><h3>Unidad de Patologías de Grupo</h3><p>Especializada en chats familiares, reuniones y cafés que se alargan sin motivo.</p></article>
+          <a class="department-card" href="departamentos/cabreo-no-lineal.html">
+            <h3>Cabreo No Lineal</h3>
+            <p class="role">Dir. Prof. Frecuaccioni</p>
+            <p>Formaliza cómo un malentendido cualquiera deriva, sin previo aviso, en cabreo.</p>
+            <span class="card-link">Ver departamento →</span>
+          </a>
+          <a class="department-card" href="departamentos/geometria-de-la-confianza.html">
+            <h3>Geometría de la Confianza</h3>
+            <p class="role">Dir. Prof. Frecuaccioni</p>
+            <p>Estudia cómo la confianza cae a un pozo del que, matemáticamente, no se vuelve.</p>
+            <span class="card-link">Ver departamento →</span>
+          </a>
+          <a class="department-card" href="departamentos/retencion-patologica.html">
+            <h3>Retención Patológica</h3>
+            <p class="role">Dir. Dr. Frenillo</p>
+            <p>Localiza el instante exacto en que el agarrado desaparece al llegar la cuenta.</p>
+            <span class="card-link">Ver departamento →</span>
+          </a>
+          <a class="department-card" href="departamentos/sumision-estrategica.html">
+            <h3>Sumisión Estratégica</h3>
+            <p class="role">Dir. Dr. Frenillo</p>
+            <p>Cataloga al pelota, sus rituales de asentimiento y su camuflaje jerárquico.</p>
+            <span class="card-link">Ver departamento →</span>
+          </a>
         </div>
       </section>
 
-      <section class="section-shell merch" id="merchandising">
+      <section class="section-shell" id="articulos">
+        <div class="section-heading compact">
+          <p class="eyebrow">Artículos</p>
+          <h2>Publicaciones recientes del archivo.</h2>
+          <a class="button ghost" href="articulos.html">Ver todos los artículos</a>
+        </div>
+        <div class="article-grid">
+          <a class="product-card" href="articulos/frenillo-amargado-sedimentario.html">
+            <span class="tag">Diagnóstico</span>
+            <strong>El amargado no nace: se sedimenta.</strong>
+            <small>Nota clínica del Doctor Frenillo sobre cómo una queja aislada acaba convertida en identidad.</small>
+          </a>
+          <a class="product-card" href="articulos/frecuaccioni-aclaraciones.html">
+            <span class="tag">Frecuaccionismo</span>
+            <strong>Cuanto más lo aclaras, más lo lías.</strong>
+            <small>El Profesor Frecuaccioni demuestra la eficacia decreciente de las aclaraciones.</small>
+          </a>
+          <a class="product-card" href="articulos/frecuaccioni-olvido-rencor.html">
+            <span class="tag">Frecuaccionismo</span>
+            <strong>El olvido y el rencor que no se va.</strong>
+            <small>Una nota sencilla sobre recuerdos, heridas y cuentas pendientes.</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="section-shell two-column" id="bibliografia">
         <div>
-          <p class="eyebrow">Merchandising</p>
-          <h2>Material oficial para financiar la observación incómoda.</h2>
+          <p class="eyebrow">Bibliografía</p>
+          <h2>La obra publicada del Instituto.</h2>
+          <a class="button ghost" href="bibliografia.html">Ver la bibliografía</a>
+        </div>
+        <div class="stacked-copy">
           <p>
-            Libros, camisetas, gorras y artefactos doctrinales del Doctor Frenillo y el
-            Profesor Frecuaccioni. Próximamente con enlaces de afiliado y arrepentimiento leve.
+            El Doctor Frenillo firma manuales clínicos sobre el amargado, el agarrado y el
+            pelota; el Profesor Frecuaccioni responde con <em>Matemáticas para amargarte la
+            vida</em>. Toda cita cruzada entre ambos es real dentro del marco satírico y falsa
+            fuera de él.
           </p>
         </div>
-        <div class="merch-grid">
-          <a class="product-card" href="https://amzn.eu/d/0bykjQDr" target="_blank" rel="noopener noreferrer">
-            <span>Libro</span>
-            <strong>El agarrado</strong>
-            <small>Expediente clínico de retención patológica.</small>
-          </a>
-          <a class="product-card" href="#" aria-label="Camiseta Instituto Frenillo próximamente">
-            <span>Camiseta</span>
-            <strong>“Si molesta, probablemente sea correcto”</strong>
-            <small>Algodón, incomodidad y evidencia.</small>
-          </a>
-          <a class="product-card" href="#" aria-label="Gorra Frecuaccioni próximamente">
-            <span>Gorra</span>
-            <strong>Frecuaccioni Research Club</strong>
-            <small>Para pensar mal bajo sombra institucional.</small>
-          </a>
+      </section>
+
+      <section class="section-shell two-column" id="merchandising">
+        <div>
+          <p class="eyebrow">Merchandising</p>
+          <h2>La tienda del Instituto.</h2>
+          <a class="button ghost" href="merchandising.html">Ver la tienda</a>
+        </div>
+        <div class="stacked-copy">
+          <p>
+            Libros, camisetas, gorras y artefactos doctrinales. Evidencia física de que el
+            problema existe y de que usted ha decidido financiarlo.
+          </p>
         </div>
       </section>
     </main>
