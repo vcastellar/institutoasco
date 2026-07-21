@@ -42,19 +42,28 @@
       <section class="hero section-shell">
         <div class="hero-copy">
           <p class="eyebrow">Instituto no homologado · Fundado cuando nadie miraba</p>
-          <h1>Estudiamos lo ordinario hasta que empieza a dar vergüenza ajena.</h1>
+          <h1>Humor académico sobre las miserias pequeñas de todos los días.</h1>
           <p class="hero-lead">
-            El Instituto Frenillo observa,
-            clasifica y archiva las grandes pequeñas miserias de la vida contemporánea con
-            una precisión innecesariamente seria. Sus métodos combinan observación no
-            consentida, diagramas con flechas y una alarmante confianza en conclusiones
-            redactadas en negrita.
+            El Instituto Frenillo es una web satírica: dos investigadores ficticios estudian
+            enfados, agarrados, pelotas, rencores y aclaraciones que solo empeoran las cosas.
+            Si acaba de llegar, empiece por las fichas del equipo o por el último artículo.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="departamentos.html">Ver departamentos</a>
-            <a class="button ghost" href="merchandising.html">Comprar evidencia</a>
+            <a class="button primary" href="#por-donde-empezar">Por dónde empezar</a>
+            <a class="button ghost" href="articulos.html">Leer artículos</a>
           </div>
         </div>
+        <aside class="hero-visual" aria-label="Mapa visual del Instituto">
+          <div class="case-file stamp-red">No homologado</div>
+          <div class="diagram-node node-team">Equipo</div>
+          <div class="diagram-node node-dept">Departamentos</div>
+          <div class="diagram-node node-articles">Artículos</div>
+          <div class="diagram-node node-merch">Extras</div>
+          <div class="diagram-line line-one"></div>
+          <div class="diagram-line line-two"></div>
+          <div class="diagram-line line-three"></div>
+          <p>Humor serio sobre gente insoportable</p>
+        </aside>
       </section>
 
       <section class="marquee" aria-label="Áreas observadas">
@@ -63,6 +72,44 @@
         <span>grupos de WhatsApp</span>
         <span>tertulias improvisadas</span>
         <span>comentarios de internet</span>
+      </section>
+
+      <section class="section-shell orientation" id="por-donde-empezar" aria-labelledby="orientation-title">
+        <div class="orientation-intro">
+          <p class="eyebrow">Guía rápida</p>
+          <h2 id="orientation-title">Qué es esto y por dónde entrar.</h2>
+          <p>
+            La página mezcla personajes, departamentos, artículos y tienda. Para que no parezca
+            un organigrama abandonado, aquí está el mapa: primero se entiende el chiste, después
+            se elige una puerta.
+          </p>
+        </div>
+        <div class="orientation-grid" aria-label="Rutas principales de la web">
+          <a class="orientation-card" href="equipo.html">
+            <span class="visual-icon">☞</span><span class="step">01</span>
+            <h3>Conozca a los culpables</h3>
+            <p>Dos autores ficticios sostienen todo el tono: Frecuaccioni matematiza el desastre; Frenillo lo diagnostica.</p>
+            <span class="card-link">Ver equipo →</span>
+          </a>
+          <a class="orientation-card" href="departamentos.html">
+            <span class="visual-icon">⌁</span><span class="step">02</span>
+            <h3>Elija una manía humana</h3>
+            <p>Los departamentos agrupan las obsesiones del Instituto: cabreo, confianza, tacañería y sumisión estratégica.</p>
+            <span class="card-link">Ver departamentos →</span>
+          </a>
+          <a class="orientation-card" href="articulos.html">
+            <span class="visual-icon">✎</span><span class="step">03</span>
+            <h3>Lea el archivo</h3>
+            <p>Los artículos son piezas breves: falsas notas clínicas, teoremas absurdos y observaciones con bata imaginaria.</p>
+            <span class="card-link">Leer artículos →</span>
+          </a>
+          <a class="orientation-card muted-card" href="bibliografia.html">
+            <span class="visual-icon">◈</span><span class="step">04</span>
+            <h3>Amplíe el delirio</h3>
+            <p>Bibliografía y merchandising quedan al final: material extra para quien ya haya entendido el marco satírico.</p>
+            <span class="card-link">Ver extras →</span>
+          </a>
+        </div>
       </section>
 
       <section class="section-shell" id="equipo">
@@ -100,25 +147,29 @@
           <a class="button ghost" href="departamentos.html">Ver los departamentos</a>
         </div>
         <div class="department-grid">
-          <a class="department-card" href="departamentos/cabreo-no-lineal.html">
+          <a class="department-card dept-rage" href="departamentos/cabreo-no-lineal.html">
+            <span class="dept-symbol">!</span>
             <h3>Cabreo No Lineal</h3>
             <p class="role">Dir. Prof. Frecuaccioni</p>
             <p>Formaliza cómo un malentendido cualquiera deriva, sin previo aviso, en cabreo.</p>
             <span class="card-link">Ver departamento →</span>
           </a>
-          <a class="department-card" href="departamentos/geometria-de-la-confianza.html">
+          <a class="department-card dept-trust" href="departamentos/geometria-de-la-confianza.html">
+            <span class="dept-symbol">△</span>
             <h3>Geometría de la Confianza</h3>
             <p class="role">Dir. Prof. Frecuaccioni</p>
             <p>Estudia cómo la confianza cae a un pozo del que, matemáticamente, no se vuelve.</p>
             <span class="card-link">Ver departamento →</span>
           </a>
-          <a class="department-card" href="departamentos/retencion-patologica.html">
+          <a class="department-card dept-retention" href="departamentos/retencion-patologica.html">
+            <span class="dept-symbol">€</span>
             <h3>Retención Patológica</h3>
             <p class="role">Dir. Dr. Frenillo</p>
             <p>Localiza el instante exacto en que el agarrado desaparece al llegar la cuenta.</p>
             <span class="card-link">Ver departamento →</span>
           </a>
-          <a class="department-card" href="departamentos/sumision-estrategica.html">
+          <a class="department-card dept-submission" href="departamentos/sumision-estrategica.html">
+            <span class="dept-symbol">↘</span>
             <h3>Sumisión Estratégica</h3>
             <p class="role">Dir. Dr. Frenillo</p>
             <p>Cataloga al pelota, sus rituales de asentimiento y su camuflaje jerárquico.</p>
