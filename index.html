@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Special+Elite&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -53,16 +53,28 @@
             <a class="button ghost" href="articulos.html">Leer artículos</a>
           </div>
         </div>
-        <aside class="hero-visual" aria-label="Mapa visual del Instituto">
-          <div class="case-file stamp-red">No homologado</div>
-          <div class="diagram-node node-team">Equipo</div>
-          <div class="diagram-node node-dept">Departamentos</div>
-          <div class="diagram-node node-articles">Artículos</div>
-          <div class="diagram-node node-merch">Extras</div>
-          <div class="diagram-line line-one"></div>
-          <div class="diagram-line line-two"></div>
-          <div class="diagram-line line-three"></div>
-          <p>Humor serio sobre gente insoportable</p>
+        <aside class="hero-visual" aria-labelledby="map-title">
+          <header class="map-header">
+            <span class="map-kicker">Mapa del Instituto</span>
+            <span class="map-status"><i aria-hidden="true"></i> No homologado</span>
+          </header>
+          <div class="map-identity">
+            <span class="map-monogram" aria-hidden="true">IF</span>
+            <div>
+              <strong id="map-title">Instituto Frenillo</strong>
+              <small>Archivo de investigación cotidiana</small>
+            </div>
+          </div>
+          <nav class="map-routes" aria-label="Secciones del Instituto">
+            <a href="equipo.html"><span>01</span><strong>Equipo</strong><i aria-hidden="true">↗</i></a>
+            <a href="departamentos.html"><span>02</span><strong>Departamentos</strong><i aria-hidden="true">↗</i></a>
+            <a href="articulos.html"><span>03</span><strong>Artículos</strong><i aria-hidden="true">↗</i></a>
+            <a href="bibliografia.html"><span>04</span><strong>Archivo y extras</strong><i aria-hidden="true">↗</i></a>
+          </nav>
+          <footer class="map-footer">
+            <span>Humor serio</span>
+            <span>Edición permanente</span>
+          </footer>
         </aside>
       </section>
 
