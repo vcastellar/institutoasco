@@ -142,7 +142,7 @@ p { color: var(--muted); line-height: 1.75; }
 .primary { background: var(--accent); border: 1.5px solid var(--accent); color: var(--panel); }
 .ghost { border: 1.5px solid var(--line); color: var(--text); }
 .ghost:hover { border-color: var(--accent); color: var(--accent); }
-.person-card, .article-grid article, .featured-article, .department-grid article, .department-card, .product-card {
+.person-card, .article-grid article, .featured-article, .product-card {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 3px;
@@ -158,17 +158,9 @@ p { color: var(--muted); line-height: 1.75; }
 .stacked-copy { border-left: 1px solid var(--line); padding-left: 2rem; }
 .section-heading { max-width: 780px; margin-bottom: 2rem; }
 .section-heading.compact { align-items: end; display: flex; justify-content: space-between; gap: 2rem; max-width: none; }
-.people-grid, .article-grid, .department-grid, .merch-grid { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); }
-.article-grid, .department-grid, .merch-grid { grid-template-columns: repeat(3, 1fr); }
-.person-card, .article-grid article, .department-grid article, .department-card, .product-card { padding: 1.6rem; }
-a.department-card { color: inherit; display: flex; flex-direction: column; overflow: hidden; position: relative; transition: transform .2s ease, border-color .2s ease; }
-.dept-symbol { align-items: center; background: var(--accent); border-radius: 2px; color: var(--panel); display: flex; font-family: var(--mono); font-size: 1.6rem; height: 58px; justify-content: center; margin-bottom: 1.25rem; width: 58px; }
-.dept-trust .dept-symbol { background: var(--accent-2); }
-.dept-retention .dept-symbol { background: var(--panel-strong); color: var(--ink); }
-.dept-submission .dept-symbol { background: var(--accent-3); }
-a.department-card:hover { border-color: var(--accent); transform: translateY(-4px); }
-.department-card .role { margin-bottom: .5rem; }
-.department-card p { margin-bottom: 0; }
+.people-grid, .article-grid, .merch-grid { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); }
+.article-grid, .merch-grid { grid-template-columns: repeat(3, 1fr); }
+.person-card, .article-grid article, .product-card { padding: 1.6rem; }
 .featured-article { margin-top: 1rem; padding: clamp(1.6rem, 4vw, 3rem); }
 .featured-article__meta { align-items: center; color: var(--muted); display: flex; flex-wrap: wrap; font-family: var(--mono); font-size: .78rem; gap: .75rem; justify-content: space-between; margin-bottom: 1rem; }
 .featured-article h3 { font-size: clamp(2rem, 4vw, 3.4rem); letter-spacing: -.01em; line-height: 1.05; margin-bottom: 1.5rem; }
@@ -262,7 +254,7 @@ a.person-card:hover { border-color: var(--accent); transform: translateY(-4px); 
   .hero, .two-column, .merch, .orientation, .orientation-grid { grid-template-columns: 1fr; }
   .hero-visual { min-height: 500px; }
   .orientation-intro { position: static; }
-  .people-grid, .article-grid, .department-grid, .merch-grid { grid-template-columns: 1fr; }
+  .people-grid, .article-grid, .merch-grid { grid-template-columns: 1fr; }
   .people-grid.compact a.person-card { flex-direction: column; align-items: flex-start; }
   .article-nav-links { display: flex; position: static; }
   .section-heading.compact { align-items: start; display: block; }
